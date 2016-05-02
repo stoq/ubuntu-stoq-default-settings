@@ -1,0 +1,6 @@
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/stoq-wallpaper.png'
+picture-options='stretched'
+
+[org.gnome.login-screen]
+logo='/usr/share/plymouth/stoq_logo.png'
