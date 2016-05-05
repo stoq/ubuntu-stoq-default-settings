@@ -164,25 +164,17 @@ fun StringToInteger (str) {
 # Previous background colour
 # #300a24 --> 0.19, 0.04, 0.14
 # New background colour
-# #2c001e --> 0.16, 0.00, 0.12
+# #000000 --> 0.00, 0.00, 0.00
 #
-Window.SetBackgroundTopColor (0.16, 0.00, 0.12);     # Nice colour on top of the screen fading to
-Window.SetBackgroundBottomColor (0.16, 0.00, 0.12);  # an equally nice colour on the bottom
+Window.SetBackgroundTopColor (0.00, 0.00, 0.00);     # Nice colour on top of the screen fading to
+Window.SetBackgroundBottomColor (0.00, 0.00, 0.00);  # an equally nice colour on the bottom
 
 bits_per_pixel = Window.GetBitsPerPixel ();
-if (bits_per_pixel == 4) {
-    logo_filename = "stoq-logo16.png";
-    progress_dot_off_filename = "progress-dot-off16.png";
-    progress_dot_on_filename = "progress-dot-on16.png";
-    password_field_filename = "password-field16.png";
-    question_field_filename = "password-field16.png";
-} else {
-    logo_filename = "stoq-logo.png";
-    progress_dot_off_filename = "progress-dot-off.png";
-    progress_dot_on_filename = "progress-dot-on.png";
-    password_field_filename = "password-field.png";
-    question_field_filename = "password-field.png";
-}
+logo_filename = "stoq-logo.png";
+progress_dot_off_filename = "progress-dot-off.png";
+progress_dot_on_filename = "progress-dot-on.png";
+password_field_filename = "password-field.png";
+question_field_filename = "password-field.png";
 
 logo.image = Image (logo_filename);
 logo.sprite = Sprite ();
