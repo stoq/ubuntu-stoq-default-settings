@@ -1,3 +1,9 @@
+ubuntu-stoq-default-settings (1.2-1xenial) xenial; urgency=medium
+
+  * Updates the default wallpaper
+
+ -- Thiago Bellini Ribeiro <hackedbellini@async.com.br>  Thu, 15 Sep 2016 13:33:48 -0300
+
 ubuntu-stoq-default-settings (1.1-1xenial) xenial; urgency=medium
 
   * Updates to the plymouth screen
